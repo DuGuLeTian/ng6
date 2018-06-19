@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { HomepageComponent } from './homepage.component';
+import { CrisisListComponent } from './crisis.component';
 
 @NgModule({
   declarations: [
-    HomepageComponent
+    CrisisListComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [HomepageComponent]
+  bootstrap: [CrisisListComponent]
 })
-export class HomepageModule { }
+export class CrisisModule { }
